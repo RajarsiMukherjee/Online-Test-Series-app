@@ -1,0 +1,10 @@
+.heading{
+    border: 1px solid red;
+    height: 60px;
+    margin-top: 6%;
+     background-color: rgb(234, 167, 79);
+}
+.heading> h3 {
+    margin-right: 50%;
+     
+}
