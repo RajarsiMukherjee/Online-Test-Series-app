@@ -1,0 +1,99 @@
+.heading{
+    border: 1px solid red;
+    height: 60px;
+    margin-top: 6%;
+     background-color: rgb(234, 167, 79);
+}
+.heading> h3 {
+    margin-right: 50%;
+     
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    width: 90%;
+    margin-left: 80px;
+}
+.leftMain{
+    margin-top: 2.8%; 
+    height: 100%;
+    width: 45%;
+     
+}
+.left{
+     
+    height: 300px;
+    width: 100%;
+    margin:5px;
+    padding:5px;
+    overflow: auto;
+    text-align:justify;
+}
+.right{
+    border: 1px solid black;
+    height: 400px;
+    width: 35%;
+    margin-top: 3%;
+     
+}
+.left > h2{
+    text-align: left;
+}
+.nextbt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.8%; 
+    width: 100%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.btnType{
+    border-style: dashed;
+    height: 200px;
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 150px 150px;
+    gap: 10px 20px; 
+}
+.btnType> div{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.notVisited{
+    height: 35px;
+    width: 40px;
+    background-color: rgb(163, 161, 161);
+    margin-top: 7%;
+}
+.notAnswered{
+    height: 35px;
+    width: 40px;
+    background-color: rgb(190, 21, 21);
+    margin-top: 7%;
+}
+.answered{
+    height: 35px;
+    width: 40px;
+    background-color: rgb(10, 204, 10);
+    margin-top: 7%;
+}
+.allQuesBtn{
+    border: 1px solid red;
+    height: 200px;
+    width: 99%; 
+    padding:5px;
+    overflow: auto;
+    text-align:justify;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    gap: 10px 30px;
+    
+}
+.allQuesBtn > button {
+    height: 20px;
+}
+ 

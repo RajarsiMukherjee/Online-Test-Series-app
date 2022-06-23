@@ -4,8 +4,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
+import Mocktest from './Components/Mocktest/Mocktest';
 import Instruction from './Components/Instruction/Instruction';
-
+ 
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,11 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path="/instruction" element={<Instruction/>}/>
+        <Route path="/instruction" element={<Instruction />}/>
+      </Routes>
+
+      <Routes>
+        <Route path="/mocktest" element={<Mocktest />}/>
       </Routes>
          
     </div>
