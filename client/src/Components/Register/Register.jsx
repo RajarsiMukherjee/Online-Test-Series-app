@@ -31,15 +31,15 @@ export default function Register() {
                     autoComplete="off"
                 >
         
-                    <TextField label="Enter Name" variant="filled" color="success" focused  /><br /><br />
+                    <TextField label=" &nbsp; &nbsp;Enter Name" variant="filled" color="success" focused  /><br /><br />
 
-                    <TextField label="Enter Email" variant="filled" color="success" focused  /><br /><br />
+                    <TextField label=" &nbsp; &nbsp;Enter Email" variant="filled" color="success" focused  /><br /><br />
 
-                    <TextField label="Enter Mobile Number" variant="filled" color="success" focused  /><br /><br />
+                    <TextField label=" &nbsp; &nbsp;Enter Mobile Number" variant="filled" color="success" focused  /><br /><br />
 
-                    <TextField label="Enter Username" variant="filled" color="success" focused  /><br /><br />
+                    <TextField label=" &nbsp; &nbsp;Enter Username" variant="filled" color="success" focused  /><br /><br />
 
-                    <TextField label="Enter Password" variant="filled" color="success" focused /> <br /><br />
+                    <TextField label=" &nbsp; &nbsp;Enter Password" variant="filled" color="success" focused /> <br /><br />
 
                      
 

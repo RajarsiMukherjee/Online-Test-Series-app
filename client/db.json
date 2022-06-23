@@ -1,0 +1,805 @@
+{
+    "test": [
+        {
+            "id" : "1",
+            "question" : "Franz looked for opportunities to skip school to do what?",
+            "option" : ["work on mills" , "go fishing" , "water the plants" , "collect birds eggs"],
+            "answer" : "collect birds eggs",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "2",
+            "question" : "What was Franz banking on to enter the class as he was late?",
+            "option" : ["M.Hamel’s teaching on the blackboard" , " commotion in the class" , "Hauser helping him sneak in" , "to quietly walk in when everyone was preoccupied with participles"],
+            "answer" : "commotion in the class",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "3",
+            "question" : "M. Hamel is introduced as a ruler-wielding teacher. This demonstrates that:",
+            "option" : ["he is concerned." , "he is adamant." , "he is unfeeling." , "he is a hard taskmaster."],
+            "answer" : "he is a hard taskmaster.",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "4",
+            "question" : "Franz thinks- will they make them sing in German- even the pigeons? What could this mean?",
+            "option" : ["German would use brutal force over everyone" , "harsh orders will be passed" , "when people are deprived of their essence even the surroundings are affected." , "the Germans will rob France of its language."],
+            "answer" : "when people are deprived of their essence even the surroundings are affected.",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "5",
+            "question" : "What does M. Hamel’s motionless posture reflect?",
+            "option" : ["the school is dismissed" , "sense of finality" , "changing order of life" , "feeling of nostalgia"],
+            "answer" : "sense of finality",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "6",
+            "question" : "What is the moral that the Alphonse Daudet wants to bring out?",
+            "option" : ["not to put off things that one can do that day" , "old order changed to new" , "one should accept everything that happens" , "teachers should be respected"],
+            "answer" : "not to put off things that one can do that day",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "7",
+            "question" : "Why did Hamel blame himself?",
+            "option" : ["not having taught them enough French" , "not being strict" , "giving students a holiday at times" , "not being responsible"],
+            "answer" : "giving students a holiday at times",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "8",
+            "question" : "Who sat on the back bench on the last lesson?",
+            "option" : ["Franz" , "Prussians" , " the village people" , "The new teacher"],
+            "answer" : "the village people",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "9",
+            "question" : "What was M. Hamel going to question Franz about?",
+            "option" : ["participles" , "adjectives" , "old primer" , " Ba be bi bo bu"],
+            "answer" : "participles",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "10",
+            "question" : "Who is the author of The Last Lesson",
+            "option" : ["Jane Austen" , "Rabindra Nath Tagore" , "None" , "Alphonse Daudet"],
+            "answer" : "Alphonse Daudet",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "11",
+            "question" : "The story ‘The Last Lesson’ highlights which human tendency?",
+            "option" : ["Male Chauvinism" , "Procrastination" , "Courage" , "Cowardice"],
+            "answer" : "Procrastination",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "12",
+            "question" : "What did Franz find on reaching the school?",
+            "option" : ["People were dancing" , "school was closed" , "Police patrolling" , "strange quietness"],
+            "answer" : "strange quietness",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "13",
+            "question" : "Franz looked for opportunities to skip school to do what?",
+            "option" : ["work on mills" , "go fishing" , "water the plants" , "collect birds eggs"],
+            "answer" : "collect birds eggs",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "14",
+            "question" : "What was Franz banking on to enter the class as he was late?",
+            "option" : ["M.Hamel’s teaching on the blackboard" , " commotion in the class" , "Hauser helping him sneak in" , "to quietly walk in when everyone was preoccupied with participles"],
+            "answer" : "commotion in the class",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "15",
+            "question" : "M. Hamel is introduced as a ruler-wielding teacher. This demonstrates that:",
+            "option" : ["he is concerned." , "he is adamant." , "he is unfeeling." , "he is a hard taskmaster."],
+            "answer" : "he is a hard taskmaster.",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "16",
+            "question" : "Franz thinks- will they make them sing in German- even the pigeons? What could this mean?",
+            "option" : ["German would use brutal force over everyone" , "harsh orders will be passed" , "when people are deprived of their essence even the surroundings are affected." , "the Germans will rob France of its language."],
+            "answer" : "when people are deprived of their essence even the surroundings are affected.",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "17",
+            "question" : "What does M. Hamel’s motionless posture reflect?",
+            "option" : ["the school is dismissed" , "sense of finality" , "changing order of life" , "feeling of nostalgia"],
+            "answer" : "sense of finality",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "18",
+            "question" : "What is the moral that the Alphonse Daudet wants to bring out?",
+            "option" : ["not to put off things that one can do that day" , "old order changed to new" , "one should accept everything that happens" , "teachers should be respected"],
+            "answer" : "not to put off things that one can do that day",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "19",
+            "question" : "Why did Hamel blame himself?",
+            "option" : ["not having taught them enough French" , "not being strict" , "giving students a holiday at times" , "not being responsible"],
+            "answer" : "giving students a holiday at times",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "20",
+            "question" : "Who sat on the back bench on the last lesson?",
+            "option" : ["Franz" , "Prussians" , " the village people" , "The new teacher"],
+            "answer" : "the village people",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "21",
+            "question" : "What was M. Hamel going to question Franz about?",
+            "option" : ["participles" , "adjectives" , "old primer" , " Ba be bi bo bu"],
+            "answer" : "participles",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "22",
+            "question" : "Who is the author of The Last Lesson",
+            "option" : ["Jane Austen" , "Rabindra Nath Tagore" , "None" , "Alphonse Daudet"],
+            "answer" : "Alphonse Daudet",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "23",
+            "question" : "The story ‘The Last Lesson’ highlights which human tendency?",
+            "option" : ["Male Chauvinism" , "Procrastination" , "Courage" , "Cowardice"],
+            "answer" : "Procrastination",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "24",
+            "question" : "What did Franz find on reaching the school?",
+            "option" : ["People were dancing" , "school was closed" , "Police patrolling" , "strange quietness"],
+            "answer" : "strange quietness",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "25",
+            "question" : "Franz looked for opportunities to skip school to do what?",
+            "option" : ["work on mills" , "go fishing" , "water the plants" , "collect birds eggs"],
+            "answer" : "collect birds eggs",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "26",
+            "question" : "What was Franz banking on to enter the class as he was late?",
+            "option" : ["M.Hamel’s teaching on the blackboard" , " commotion in the class" , "Hauser helping him sneak in" , "to quietly walk in when everyone was preoccupied with participles"],
+            "answer" : "commotion in the class",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "27",
+            "question" : "M. Hamel is introduced as a ruler-wielding teacher. This demonstrates that:",
+            "option" : ["he is concerned." , "he is adamant." , "he is unfeeling." , "he is a hard taskmaster."],
+            "answer" : "he is a hard taskmaster.",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "28",
+            "question" : "Franz thinks- will they make them sing in German- even the pigeons? What could this mean?",
+            "option" : ["German would use brutal force over everyone" , "harsh orders will be passed" , "when people are deprived of their essence even the surroundings are affected." , "the Germans will rob France of its language."],
+            "answer" : "when people are deprived of their essence even the surroundings are affected.",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "29",
+            "question" : "What does M. Hamel’s motionless posture reflect?",
+            "option" : ["the school is dismissed" , "sense of finality" , "changing order of life" , "feeling of nostalgia"],
+            "answer" : "sense of finality",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "30",
+            "question" : "What is the moral that the Alphonse Daudet wants to bring out?",
+            "option" : ["not to put off things that one can do that day" , "old order changed to new" , "one should accept everything that happens" , "teachers should be respected"],
+            "answer" : "not to put off things that one can do that day",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "31",
+            "question" : "Why did Hamel blame himself?",
+            "option" : ["not having taught them enough French" , "not being strict" , "giving students a holiday at times" , "not being responsible"],
+            "answer" : "giving students a holiday at times",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "32",
+            "question" : "Who sat on the back bench on the last lesson?",
+            "option" : ["Franz" , "Prussians" , " the village people" , "The new teacher"],
+            "answer" : "the village people",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "33",
+            "question" : "Who is the author of The Last Lesson",
+            "option" : ["Jane Austen" , "Rabindra Nath Tagore" , "None" , "Alphonse Daudet"],
+            "answer" : "Alphonse Daudet",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "34",
+            "question" : "The story ‘The Last Lesson’ highlights which human tendency?",
+            "option" : ["Male Chauvinism" , "Procrastination" , "Courage" , "Cowardice"],
+            "answer" : "Procrastination",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "35",
+            "question" : "What did Franz find on reaching the school?",
+            "option" : ["People were dancing" , "school was closed" , "Police patrolling" , "strange quietness"],
+            "answer" : "strange quietness",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "36",
+            "question" : "Franz looked for opportunities to skip school to do what?",
+            "option" : ["work on mills" , "go fishing" , "water the plants" , "collect birds eggs"],
+            "answer" : "collect birds eggs",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "37",
+            "question" : "What was Franz banking on to enter the class as he was late?",
+            "option" : ["M.Hamel’s teaching on the blackboard" , " commotion in the class" , "Hauser helping him sneak in" , "to quietly walk in when everyone was preoccupied with participles"],
+            "answer" : "commotion in the class",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "38",
+            "question" : "M. Hamel is introduced as a ruler-wielding teacher. This demonstrates that:",
+            "option" : ["he is concerned." , "he is adamant." , "he is unfeeling." , "he is a hard taskmaster."],
+            "answer" : "he is a hard taskmaster.",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "39",
+            "question" : "Why did Hamel blame himself?",
+            "option" : ["not having taught them enough French" , "not being strict" , "giving students a holiday at times" , "not being responsible"],
+            "answer" : "giving students a holiday at times",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "40",
+            "question" : "Who sat on the back bench on the last lesson?",
+            "option" : ["Franz" , "Prussians" , " the village people" , "The new teacher"],
+            "answer" : "the village people",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "41",
+            "question" : "Why did Hamel blame himself?",
+            "option" : ["not having taught them enough French" , "not being strict" , "giving students a holiday at times" , "not being responsible"],
+            "answer" : "giving students a holiday at times",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "42",
+            "question" : "Who sat on the back bench on the last lesson?",
+            "option" : ["Franz" , "Prussians" , " the village people" , "The new teacher"],
+            "answer" : "the village people",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "43",
+            "question" : "Who is the author of The Last Lesson",
+            "option" : ["Jane Austen" , "Rabindra Nath Tagore" , "None" , "Alphonse Daudet"],
+            "answer" : "Alphonse Daudet",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "44",
+            "question" : "The story ‘The Last Lesson’ highlights which human tendency?",
+            "option" : ["Male Chauvinism" , "Procrastination" , "Courage" , "Cowardice"],
+            "answer" : "Procrastination",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "45",
+            "question" : "What did Franz find on reaching the school?",
+            "option" : ["People were dancing" , "school was closed" , "Police patrolling" , "strange quietness"],
+            "answer" : "strange quietness",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "46",
+            "question" : "Franz looked for opportunities to skip school to do what?",
+            "option" : ["work on mills" , "go fishing" , "water the plants" , "collect birds eggs"],
+            "answer" : "collect birds eggs",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "47",
+            "question" : "What was Franz banking on to enter the class as he was late?",
+            "option" : ["M.Hamel’s teaching on the blackboard" , " commotion in the class" , "Hauser helping him sneak in" , "to quietly walk in when everyone was preoccupied with participles"],
+            "answer" : "commotion in the class",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "48",
+            "question" : "M. Hamel is introduced as a ruler-wielding teacher. This demonstrates that:",
+            "option" : ["he is concerned." , "he is adamant." , "he is unfeeling." , "he is a hard taskmaster."],
+            "answer" : "he is a hard taskmaster.",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "49",
+            "question" : "Why did Hamel blame himself?",
+            "option" : ["not having taught them enough French" , "not being strict" , "giving students a holiday at times" , "not being responsible"],
+            "answer" : "giving students a holiday at times",
+            "testName" : "English",
+            "level" : "High"
+        },
+        {
+            "id" : "50",
+            "question" : "Who sat on the back bench on the last lesson?",
+            "option" : ["Franz" , "Prussians" , " the village people" , "The new teacher"],
+            "answer" : "the village people",
+            "testName" : "English",
+            "level" : "Low"
+        },
+        {
+            "id" : "1",
+            "question" : "A relation R in a set A is called _______, if (a1, a2) ∈ R implies (a2, a1) ∈ R, for all a1, a2 ∈ A.",
+            "option" : ["symmetric" , "transitive" , "equivalence" , "non-symmetric"],
+            "answer" : "symmetric",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "2",
+            "question" : "Let R be a relation on the set N of natural numbers defined by nRm if n divides m. Then R is",
+            "option" : ["Reflexive and symmetric" , "Transitive and symmetric" , "Equivalence" , "Reflexive, transitive but not symmetric"],
+            "answer" : "Reflexive, transitive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "3",
+            "question" : "The maximum number of equivalence relations on the set A = {1, 2, 3} are",
+            "option" : ["1" , "2" , "3" , "5"],
+            "answer" : "5",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "4",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "5",
+            "question" : "Let f : [2, ∞) → R be the function defined by f(x) = x2 – 4x + 5, then the range of f is",
+            "option" : ["R" , "[1, ∞)" , "[4, ∞)" , " [5, ∞)"],
+            "answer" : " [1, ∞)",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "6",
+            "question" : "Let f : R → R be defined by f(x) = 1/x ∀ x ∈ R. Then f is",
+            "option" : ["one-one" , "onto" , "bijective" , "f is not defined"],
+            "answer" : "f is not defined",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "7",
+            "question" : "Let A = {1, 2, 3} and consider the relation R = {1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1,3)}. Then R is",
+            "option" : ["reflexive but not symmetric" , "reflexive but not transitive" , "symmetric and transitive" , "neither symmetric, nor transitive"],
+            "answer" : "reflexive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "8",
+            "question" : "Let the f: R → R be defined by f(x) = 2x + cos x, then f",
+            "option" : ["has a maximum, at x = 0" , "has a minimum at x = 3t" , "is an increasing function" , "is a decreasing function"],
+            "answer" : "is an increasing function",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "9",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "10",
+            "question" : "The side of an equilateral triangle is increasing at the rate of 2 cm/s. The rate at which area increases when the side is 10 is",
+            "option" : ["10 cm2/s" , "10/3 cm2/s" , "√3 cm2/s" , "10√3 cm2/s"],
+            "answer" : "10√3 cm2/s",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "11",
+            "question" : "A relation R in a set A is called _______, if (a1, a2) ∈ R implies (a2, a1) ∈ R, for all a1, a2 ∈ A.",
+            "option" : ["symmetric" , "transitive" , "equivalence" , "non-symmetric"],
+            "answer" : "symmetric",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "12",
+            "question" : "Let R be a relation on the set N of natural numbers defined by nRm if n divides m. Then R is",
+            "option" : ["Reflexive and symmetric" , "Transitive and symmetric" , "Equivalence" , "Reflexive, transitive but not symmetric"],
+            "answer" : "Reflexive, transitive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "13",
+            "question" : "The maximum number of equivalence relations on the set A = {1, 2, 3} are",
+            "option" : ["1" , "2" , "3" , "5"],
+            "answer" : "5",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "14",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "15",
+            "question" : "Let f : [2, ∞) → R be the function defined by f(x) = x2 – 4x + 5, then the range of f is",
+            "option" : ["R" , "[1, ∞)" , "[4, ∞)" , " [5, ∞)"],
+            "answer" : " [1, ∞)",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "16",
+            "question" : "Let f : R → R be defined by f(x) = 1/x ∀ x ∈ R. Then f is",
+            "option" : ["one-one" , "onto" , "bijective" , "f is not defined"],
+            "answer" : "f is not defined",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "17",
+            "question" : "Let A = {1, 2, 3} and consider the relation R = {1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1,3)}. Then R is",
+            "option" : ["reflexive but not symmetric" , "reflexive but not transitive" , "symmetric and transitive" , "neither symmetric, nor transitive"],
+            "answer" : "reflexive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "18",
+            "question" : "Let the f: R → R be defined by f(x) = 2x + cos x, then f",
+            "option" : ["has a maximum, at x = 0" , "has a minimum at x = 3t" , "is an increasing function" , "is a decreasing function"],
+            "answer" : "is an increasing function",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "19",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "20",
+            "question" : "The side of an equilateral triangle is increasing at the rate of 2 cm/s. The rate at which area increases when the side is 10 is",
+            "option" : ["10 cm2/s" , "10/3 cm2/s" , "√3 cm2/s" , "10√3 cm2/s"],
+            "answer" : "10√3 cm2/s",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "21",
+            "question" : "A relation R in a set A is called _______, if (a1, a2) ∈ R implies (a2, a1) ∈ R, for all a1, a2 ∈ A.",
+            "option" : ["symmetric" , "transitive" , "equivalence" , "non-symmetric"],
+            "answer" : "symmetric",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "22",
+            "question" : "Let R be a relation on the set N of natural numbers defined by nRm if n divides m. Then R is",
+            "option" : ["Reflexive and symmetric" , "Transitive and symmetric" , "Equivalence" , "Reflexive, transitive but not symmetric"],
+            "answer" : "Reflexive, transitive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "23",
+            "question" : "The maximum number of equivalence relations on the set A = {1, 2, 3} are",
+            "option" : ["1" , "2" , "3" , "5"],
+            "answer" : "5",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "24",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "25",
+            "question" : "Let f : [2, ∞) → R be the function defined by f(x) = x2 – 4x + 5, then the range of f is",
+            "option" : ["R" , "[1, ∞)" , "[4, ∞)" , " [5, ∞)"],
+            "answer" : " [1, ∞)",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "26",
+            "question" : "Let f : R → R be defined by f(x) = 1/x ∀ x ∈ R. Then f is",
+            "option" : ["one-one" , "onto" , "bijective" , "f is not defined"],
+            "answer" : "f is not defined",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "27",
+            "question" : "Let A = {1, 2, 3} and consider the relation R = {1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1,3)}. Then R is",
+            "option" : ["reflexive but not symmetric" , "reflexive but not transitive" , "symmetric and transitive" , "neither symmetric, nor transitive"],
+            "answer" : "reflexive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "28",
+            "question" : "Let the f: R → R be defined by f(x) = 2x + cos x, then f",
+            "option" : ["has a maximum, at x = 0" , "has a minimum at x = 3t" , "is an increasing function" , "is a decreasing function"],
+            "answer" : "is an increasing function",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "29",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "30",
+            "question" : "The side of an equilateral triangle is increasing at the rate of 2 cm/s. The rate at which area increases when the side is 10 is",
+            "option" : ["10 cm2/s" , "10/3 cm2/s" , "√3 cm2/s" , "10√3 cm2/s"],
+            "answer" : "10√3 cm2/s",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "31",
+            "question" : "A relation R in a set A is called _______, if (a1, a2) ∈ R implies (a2, a1) ∈ R, for all a1, a2 ∈ A.",
+            "option" : ["symmetric" , "transitive" , "equivalence" , "non-symmetric"],
+            "answer" : "symmetric",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "32",
+            "question" : "Let R be a relation on the set N of natural numbers defined by nRm if n divides m. Then R is",
+            "option" : ["Reflexive and symmetric" , "Transitive and symmetric" , "Equivalence" , "Reflexive, transitive but not symmetric"],
+            "answer" : "Reflexive, transitive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "33",
+            "question" : "The maximum number of equivalence relations on the set A = {1, 2, 3} are",
+            "option" : ["1" , "2" , "3" , "5"],
+            "answer" : "5",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "34",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "35",
+            "question" : "Let f : [2, ∞) → R be the function defined by f(x) = x2 – 4x + 5, then the range of f is",
+            "option" : ["R" , "[1, ∞)" , "[4, ∞)" , " [5, ∞)"],
+            "answer" : " [1, ∞)",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "36",
+            "question" : "Let f : R → R be defined by f(x) = 1/x ∀ x ∈ R. Then f is",
+            "option" : ["one-one" , "onto" , "bijective" , "f is not defined"],
+            "answer" : "f is not defined",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "37",
+            "question" : "Let A = {1, 2, 3} and consider the relation R = {1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1,3)}. Then R is",
+            "option" : ["reflexive but not symmetric" , "reflexive but not transitive" , "symmetric and transitive" , "neither symmetric, nor transitive"],
+            "answer" : "reflexive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "38",
+            "question" : "Let the f: R → R be defined by f(x) = 2x + cos x, then f",
+            "option" : ["has a maximum, at x = 0" , "has a minimum at x = 3t" , "is an increasing function" , "is a decreasing function"],
+            "answer" : "is an increasing function",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "39",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "40",
+            "question" : "The side of an equilateral triangle is increasing at the rate of 2 cm/s. The rate at which area increases when the side is 10 is",
+            "option" : ["10 cm2/s" , "10/3 cm2/s" , "√3 cm2/s" , "10√3 cm2/s"],
+            "answer" : "10√3 cm2/s",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "41",
+            "question" : "A relation R in a set A is called _______, if (a1, a2) ∈ R implies (a2, a1) ∈ R, for all a1, a2 ∈ A.",
+            "option" : ["symmetric" , "transitive" , "equivalence" , "non-symmetric"],
+            "answer" : "symmetric",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "42",
+            "question" : "Let R be a relation on the set N of natural numbers defined by nRm if n divides m. Then R is",
+            "option" : ["Reflexive and symmetric" , "Transitive and symmetric" , "Equivalence" , "Reflexive, transitive but not symmetric"],
+            "answer" : "Reflexive, transitive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "43",
+            "question" : "The maximum number of equivalence relations on the set A = {1, 2, 3} are",
+            "option" : ["1" , "2" , "3" , "5"],
+            "answer" : "5",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "44",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "45",
+            "question" : "Let f : [2, ∞) → R be the function defined by f(x) = x2 – 4x + 5, then the range of f is",
+            "option" : ["R" , "[1, ∞)" , "[4, ∞)" , " [5, ∞)"],
+            "answer" : " [1, ∞)",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "46",
+            "question" : "Let f : R → R be defined by f(x) = 1/x ∀ x ∈ R. Then f is",
+            "option" : ["one-one" , "onto" , "bijective" , "f is not defined"],
+            "answer" : "f is not defined",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "47",
+            "question" : "Let A = {1, 2, 3} and consider the relation R = {1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1,3)}. Then R is",
+            "option" : ["reflexive but not symmetric" , "reflexive but not transitive" , "symmetric and transitive" , "neither symmetric, nor transitive"],
+            "answer" : "reflexive but not symmetric",
+            "testName" : "Maths",
+            "level" : "High"
+        },
+        {
+            "id" : "48",
+            "question" : "Let the f: R → R be defined by f(x) = 2x + cos x, then f",
+            "option" : ["has a maximum, at x = 0" , "has a minimum at x = 3t" , "is an increasing function" , "is a decreasing function"],
+            "answer" : "is an increasing function",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "49",
+            "question" : "If set A contains 5 elements and the set B contains 6 elements, then the number of one-one and onto mappings from A to B is",
+            "option" : ["720" , "120" , "0" , "none of these"],
+            "answer" : "0",
+            "testName" : "Maths",
+            "level" : "Low"
+        },
+        {
+            "id" : "50",
+            "question" : "The side of an equilateral triangle is increasing at the rate of 2 cm/s. The rate at which area increases when the side is 10 is",
+            "option" : ["10 cm2/s" , "10/3 cm2/s" , "√3 cm2/s" , "10√3 cm2/s"],
+            "answer" : "10√3 cm2/s",
+            "testName" : "Maths",
+            "level" : "High"
+        }
+
+    ]
+}

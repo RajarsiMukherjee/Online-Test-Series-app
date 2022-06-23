@@ -27,7 +27,7 @@ export default function Mocktest() {
 
                         <div>
                             <FormControl>
-                                <FormLabel id="demo-radio-buttons-group-label">Chose Correct Option</FormLabel>
+                                <FormLabel id="demo-radio-buttons-group-label"> &nbsp; &nbsp; &nbsp;Chose Correct Option</FormLabel>
                                 <RadioGroup
                                     aria-labelledby="demo-radio-buttons-group-label"
                                     defaultValue="female"
@@ -35,10 +35,10 @@ export default function Mocktest() {
                                     row
                                      
                                 >
-                                    <FormControlLabel value="1" control={<Radio />} label="1)" /> 
-                                    <FormControlLabel value="2" control={<Radio />} label="2)" />
-                                    <FormControlLabel value="3" control={<Radio />} label="3)" />
-                                    <FormControlLabel value="4" control={<Radio />} label="4)" />
+                                    <FormControlLabel value="1" control={<Radio />} label=" &nbsp; &nbsp;1)" /> 
+                                    <FormControlLabel value="2" control={<Radio />} label=" &nbsp; &nbsp;2)" />
+                                    <FormControlLabel value="3" control={<Radio />} label=" &nbsp; &nbsp;3)" />
+                                    <FormControlLabel value="4" control={<Radio />} label=" &nbsp; &nbsp;4)" />
                                 </RadioGroup>
                             </FormControl>
                         </div>
@@ -80,18 +80,40 @@ export default function Mocktest() {
                     <div className='btnType'>
                         <div>
                             <button className='notVisited'>98</button>
-                            <p>Not Visited</p>
+                            <p> &nbsp;Not Visited</p>
                         </div>
                         <div>
                         <button className='notAnswered'>98</button>
-                            <p>Not Answered</p>
+                            <p> &nbsp;Not Answered</p>
                         </div>
                         <div> 
                         <button className='answered'>98</button>
-                            <p>Answered</p>
+                            <p> &nbsp;Answered</p>
                         </div>
                     </div>
                     <div className='allQuesBtn'>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
+                         <button>58</button>
                          <button>58</button>
                           
                     </div>
