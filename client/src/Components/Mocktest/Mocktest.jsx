@@ -7,10 +7,25 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 export default function Mocktest() {
+
+    const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
     return (
         <div>
-             
+
             <div className='main'>
                 <div className='leftMain'>
                     <div className='left'>
@@ -33,9 +48,9 @@ export default function Mocktest() {
                                     defaultValue="female"
                                     name="radio-buttons-group"
                                     row
-                                     
+
                                 >
-                                    <FormControlLabel value="1" control={<Radio />} label=" &nbsp; &nbsp;1)" /> 
+                                    <FormControlLabel value="1" control={<Radio />} label=" &nbsp; &nbsp;1)" />
                                     <FormControlLabel value="2" control={<Radio />} label=" &nbsp; &nbsp;2)" />
                                     <FormControlLabel value="3" control={<Radio />} label=" &nbsp; &nbsp;3)" />
                                     <FormControlLabel value="4" control={<Radio />} label=" &nbsp; &nbsp;4)" />
@@ -69,9 +84,32 @@ export default function Mocktest() {
                             </Stack>
                         </div>
                         <div>
-                        <Button variant="contained" color="success">
-                            Submit
-                        </Button>
+                            <Button variant="contained" color="success" onClick={handleClickOpen}>
+                                Submit
+                            </Button>
+                            <Dialog
+                                open={open}
+                                onClose={handleClose}
+                                aria-labelledby="alert-dialog-title"
+                                aria-describedby="alert-dialog-description"
+                            >
+                                <DialogTitle id="alert-dialog-title">
+                                    {"Are you sure you want to submit the test"}
+                                </DialogTitle>
+                                <DialogContent>
+                                    <DialogContentText id="alert-dialog-description">
+                                        if you are confident with your all the answers and given
+                                        as per the test instruction click on
+                                        the agree button or else if any doubt click on Disagree button.
+                                    </DialogContentText>
+                                </DialogContent>
+                                <DialogActions>
+                                    <Button onClick={handleClose}>Disagree</Button>
+                                    <Button onClick={handleClose} autoFocus>
+                                        Agree
+                                    </Button>
+                                </DialogActions>
+                            </Dialog>
                         </div>
 
                     </div>
@@ -83,39 +121,39 @@ export default function Mocktest() {
                             <p> &nbsp;Not Visited</p>
                         </div>
                         <div>
-                        <button className='notAnswered'>98</button>
+                            <button className='notAnswered'>98</button>
                             <p> &nbsp;Not Answered</p>
                         </div>
-                        <div> 
-                        <button className='answered'>98</button>
+                        <div>
+                            <button className='answered'>98</button>
                             <p> &nbsp;Answered</p>
                         </div>
                     </div>
                     <div className='allQuesBtn'>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                         <button>58</button>
-                          
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+                        <button>58</button>
+
                     </div>
                 </div>
             </div>
