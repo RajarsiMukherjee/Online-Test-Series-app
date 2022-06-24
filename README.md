@@ -33,7 +33,7 @@ These are the components outlined in Mock Test app. All test's components suppor
 ---
  ### Over_All 
 
-That is Very interesting and challenging because for the first time we are implementing react in a social media page project.We have completed this project with in 3 days. For that short spane of time I had tried to implement the main functionalities of Mock Test App.   
+That is Very interesting and challenging because for the first time I aM implementing react in a Mock-Test App project.I have completed this project with in 3 days. For that short spane of time I had tried to implement the main functionalities of Mock Test App.   
 
 
 
