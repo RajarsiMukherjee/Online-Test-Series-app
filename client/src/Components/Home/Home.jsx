@@ -8,8 +8,10 @@ import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
 import axios from "axios"
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
+  const navigate = useNavigate()
   const [age, setAge] = React.useState('');
   const [data, setData] = useState([])
 
@@ -61,7 +63,7 @@ export default function Home() {
           </Select>
         </FormControl>
       </Box><br></br><br></br>
-      <Button className='button' variant="contained" color="success">
+      <Button onClick={() => navigate("/instruction")} className='button' variant="contained" color="success">
         Success
       </Button>
 

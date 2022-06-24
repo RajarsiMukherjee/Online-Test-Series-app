@@ -2,7 +2,9 @@ import React from 'react'
 import "./Instruction.css";
 import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom'
 export default function Instruction() {
+    const navigate = useNavigate()
     return (
         <div>
             <div className='heading'><h3>GENERAL INSTRUCTIONS</h3></div>
@@ -62,7 +64,7 @@ export default function Instruction() {
                         <br />
                         <hr />
                         <br />
-                        <Button className='button' variant="contained" color="success">
+                        <Button onClick={() => navigate("/mocktest")} className='button' variant="contained" color="success">
                             PROCEED
                         </Button>
                         <br /><br /><br /><br /><br /><br />

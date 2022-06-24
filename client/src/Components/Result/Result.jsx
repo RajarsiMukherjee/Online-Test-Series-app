@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Result.css"
 import { styled } from 'styled-components';
+import { useNavigate } from 'react-router-dom'
 export default function Result() {
+  const navigate = useNavigate()
   return (
     <div className='table'>
       <div className='t1'>
@@ -9,7 +11,7 @@ export default function Result() {
         <button className='b1'>STUDENT FEEDBACK</button>
       </div>
       <div>
-        <button className='b2'>BACK</button>
+        <button onClick={() => navigate("/")} className='b2'>BACK</button>
       </div>
       <div>
         <p className='text2'>Score Card</p>
