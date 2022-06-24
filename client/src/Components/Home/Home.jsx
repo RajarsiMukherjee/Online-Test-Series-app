@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Home.css"
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
@@ -6,9 +6,16 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import Button from '@mui/material/Button';
+import axios from "axios"
+import { useState } from 'react';
 
 export default function Home() {
   const [age, setAge] = React.useState('');
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    axios("http://localhost:2348/test/namess").then((res)=> setData(res.data)).catch((err) => console.log(err))
+  },[])
 
   // const handleChange = (event: SelectChangeEvent) => {
   //   //setAge(event.target.value as string);
@@ -28,9 +35,14 @@ export default function Home() {
             label="Age"
              
           >
-            <MenuItem value={10}>Ten</MenuItem>
+            {
+              data.map((e) => (
+                <MenuItem value={e}>{e}</MenuItem>
+              ))
+            }
+            {/* <MenuItem value={10}>Ten</MenuItem>
             <MenuItem value={20}>Twenty</MenuItem>
-            <MenuItem value={30}>Thirty</MenuItem>
+            <MenuItem value={30}>Thirty</MenuItem> */}
           </Select>
         </FormControl>
         <h3>Paper</h3>

@@ -1,0 +1,20 @@
+ .mainNav{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    padding: 8px;
+    display: flex;
+     
+ }
+ .userData{
+     
+    text-align: left;
+    line-height: 2.2px;
+ }
+ .acLogo{
+    margin-right: 2%;
+    margin-left: 5%;
+    margin-top: .8%;
+ }
+  
+ 

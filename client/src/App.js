@@ -7,10 +7,13 @@ import Register from './Components/Register/Register';
 import Mocktest from './Components/Mocktest/Mocktest';
 import Instruction from './Components/Instruction/Instruction';
 import Test from './Components/Test';
+import Result from './Components/Result/Result';
+import Header from './Components/Header/Header';
  
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
         <Route path="/" element={<Home />}/>
       </Routes>
@@ -32,6 +35,9 @@ function App() {
 
       <Routes>
         <Route path="/test" element={<Test />}/>
+      </Routes>
+      <Routes>
+        <Route path="/result" element={<Result />}/>
       </Routes>
          
     </div>
