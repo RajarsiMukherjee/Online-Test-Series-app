@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const connect = require("./configs/db");
-const { register, login, newToken } = require("./controllers/auth.controller");
+// const { register, login, newToken } = require("./controllers/auth.controller");
 const test = require("./controllers/testController")
 
 const app = express();
@@ -15,9 +15,9 @@ app.use(cors());
 
 
 // register
-app.post("/register", register);
+// app.post("/register", register);
 // .login
-app.post("/login", login);
+// app.post("/login", login);
 
 app.use("/test" , test)
 

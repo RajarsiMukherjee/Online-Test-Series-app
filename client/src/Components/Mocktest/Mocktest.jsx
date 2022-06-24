@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Mocktest.css";
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
@@ -13,9 +13,36 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import { useNavigate } from 'react-router-dom'
+import axios from "axios"
+import { useSelector } from 'react-redux';
+
 export default function Mocktest() {
     const navigate = useNavigate()
+    const ExamNamee = useSelector((store) => store.examName)
+    const ExamLevell = useSelector((store) => store.examLevel)
+
+    console.log("datatata" , ExamLevell,ExamNamee)
     const [open, setOpen] = React.useState(false);
+    const[data , setData] = useState([])
+    const[numm , setNumm] = useState(0)
+    const[numSeq , setNumSeq] = useState([])
+    console.log(data)
+    // var numbe
+console.log("numbeSEQ" , numSeq)
+    useEffect(() => {
+        axios.get(`https://rajashri-mock.herokuapp.com/test/individual?testname=${ExamNamee}&level=${ExamLevell}`).then((res) => {setData(res.data) ; numberSeqq(res.data.length)}).catch((err) => console.log(err));
+        
+    },[])
+
+    function numberSeqq(n){
+        console.log(n)
+       let numbe = []
+        for(var i=0; i<n; i++){
+            numbe.push(i)
+        }
+        setNumSeq(numbe)
+        // console.log("numbe11" , numbe)
+    }
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -24,12 +51,66 @@ export default function Mocktest() {
   const handleClose = () => {
     setOpen(false);
   };
+
+  const handleSaveNext = () => {
+    // console.log("jkasdh")
+    if(data.length-1 !== numm){
+        setNumm(numm + 1)
+    }
+    // setNumm(numm + 1)
+  }
+
+  const handleBack = () => {
+    if(numm > 0){
+        setNumm(numm - 1)
+    }
+  }
     return (
         <div>
 
             <div className='main'>
                 <div className='leftMain'>
-                    <div className='left'>
+                    
+<div className='left'>
+    {data[0] ? <>
+    
+        <h2>Question: {numm + 1}</h2><hr></hr>
+                        <p>{data[numm].question}</p>
+
+                        <ol>
+                            <li>{data[numm].option[0]}</li>
+                            <li>{data[numm].option[1]}</li>
+                            <li>{data[numm].option[2]}</li>
+                            <li>{data[numm].option[3]}</li>
+                        </ol>
+
+
+                        <div>
+                            <FormControl>
+                                <FormLabel id="demo-radio-buttons-group-label"> &nbsp; &nbsp; &nbsp;Chose Correct Option</FormLabel>
+                                <RadioGroup
+                                    aria-labelledby="demo-radio-buttons-group-label"
+                                    defaultValue="female"
+                                    name="radio-buttons-group"
+                                    row
+
+                                >
+                                    <FormControlLabel value="1" control={<Radio />} label=" &nbsp; &nbsp;1)" />
+                                    <FormControlLabel value="2" control={<Radio />} label=" &nbsp; &nbsp;2)" />
+                                    <FormControlLabel value="3" control={<Radio />} label=" &nbsp; &nbsp;3)" />
+                                    <FormControlLabel value="4" control={<Radio />} label=" &nbsp; &nbsp;4)" />
+                                </RadioGroup>
+                            </FormControl>
+                        </div>
+                        <hr /><br />
+
+
+                    
+    
+    </> : <></>}
+</div>
+
+                    {/* <div className='left'>
                         <h2>Question: 1</h2><hr></hr>
                         <p>What is is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
 
@@ -61,11 +142,11 @@ export default function Mocktest() {
                         <hr /><br />
 
 
-                    </div>
+                    </div> */}
                     <hr />
                     <Stack direction="row" spacing={2}>
 
-                        <Button variant="contained" color="success">
+                        <Button disabled={numm == data.length - 1} variant="contained" color="success" onClick={() => handleSaveNext()}>
                             Save &  Next
                         </Button>
                         <Button variant="outlined" color="error">
@@ -76,10 +157,10 @@ export default function Mocktest() {
                         <div>
                             <Stack direction="row" spacing={1}>
 
-                                <Button variant="contained" color="primary">
+                                <Button disabled={numm == 0} variant="contained" color="primary" onClick={() => handleBack()}>
                                     Back
                                 </Button>
-                                <Button variant="outlined" color="success">
+                                <Button disabled={numm == data.length - 1} variant="outlined" color="success" onClick={() => handleSaveNext()}>
                                     Next
                                 </Button>
                             </Stack>
@@ -131,6 +212,22 @@ export default function Mocktest() {
                         </div>
                     </div>
                     <div className='allQuesBtn'>
+
+                        {
+                            numSeq.map((e) => (
+<button>{e +1}</button>
+                            ))
+                        }
+                        {/* <button>1</button> */}
+                        {/* <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button>10</button>
                         <button>58</button>
                         <button>58</button>
                         <button>58</button>
@@ -143,17 +240,7 @@ export default function Mocktest() {
                         <button>58</button>
                         <button>58</button>
                         <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
-                        <button>58</button>
+                        <button>58</button> */}
 
                     </div>
                 </div>

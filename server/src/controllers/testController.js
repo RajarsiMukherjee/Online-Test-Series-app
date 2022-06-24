@@ -50,6 +50,8 @@ router.get("/testName", async (req, res) => {
     }
   });
 
+
+  // gives test name onetimes
   router.get("/namess", async (req, res) => {
     try {
         // console.log(req.query.testname, req.query.level)
@@ -63,6 +65,19 @@ router.get("/testName", async (req, res) => {
     }
   });
 
+  router.get("/papers", async (req, res) => {
+    try {
+        // console.log(req.query.testname, req.query.level)
+      const data = await Test.find().lean().exec();
+        const namemap = data.filter((e) => e.testName === req.query.exam)
+        const papers = namemap.map((e) => e.level)
+        let uniqueChars = [...new Set(papers)];
+    //   console.log(data);
+      return res.send(uniqueChars);
+    } catch (error) {
+      return res.send(error);
+    }
+  });
 
 
 
