@@ -24,7 +24,7 @@ router.get("", async (req, res) => {
     return res.send(error);
   }
 });
-
+//http://localhost:2348/test/testName?name=English
 router.get("/testName", async (req, res) => {
     try {
         console.log(req.query.name)
@@ -36,7 +36,7 @@ router.get("/testName", async (req, res) => {
       return res.send(error);
     }
   });
-
+//http://localhost:2348/test/individual?testname=English&level=High
   router.get("/individual", async (req, res) => {
     try {
         console.log(req.query.testname, req.query.level)
@@ -52,6 +52,7 @@ router.get("/testName", async (req, res) => {
 
 
   // gives test name onetimes
+  //http://localhost:2348/test/namess
   router.get("/namess", async (req, res) => {
     try {
         // console.log(req.query.testname, req.query.level)
@@ -64,7 +65,7 @@ router.get("/testName", async (req, res) => {
       return res.send(error);
     }
   });
-
+//http://localhost:2348/test/papers?exam=Maths
   router.get("/papers", async (req, res) => {
     try {
         // console.log(req.query.testname, req.query.level)

@@ -33,9 +33,9 @@ function App() {
         <Route path="/mocktest" element={<Mocktest />}/>
       </Routes>
 
-      <Routes>
+      {/* <Routes>
         <Route path="/test" element={<Test />}/>
-      </Routes>
+      </Routes> */}
       <Routes>
         <Route path="/result" element={<Result />}/>
       </Routes>
